@@ -4,299 +4,299 @@
 
 # 🌌 TasoSky
 
-**Uzayın Derinliklerini Keşfedin**
+**Explore the Depths of Space**
 
-Modern, şık ve bilgilendirici bir NASA uzay keşif uygulaması
+A modern, elegant, and informative NASA space exploration app
 
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-26.0+-blue.svg)](https://developer.apple.com/ios/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![NASA API](https://img.shields.io/badge/NASA-API-red.svg)](https://api.nasa.gov)
 
-[Özellikler](#-özellikler) • [Kurulum](#-kurulum) • [Kullanım](#-kullanım) • [Ekran Görüntüleri](#-ekran-görüntüleri) • [Katkıda Bulunma](#-katkıda-bulunma) • [Lisans](#-lisans)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Contributing](#-contributing) • [License](#-license)
 
 </div>
 
 ---
 
-## 📖 Hakkında
+## 📖 About
 
-**TasoSky**, NASA API'sini kullanarak uzay hakkında bilgi sunan modern bir iOS uygulamasıdır. Güneş sistemindeki gezegenleri keşfedin, yakın Dünya asteroitlerini takip edin ve Mars'ın hava durumunu öğrenin.
+**TasoSky** is a modern iOS app that provides information about space using NASA API. Explore planets in our solar system, track near-Earth asteroids, and learn about Mars weather.
 
-### 🎯 Misyon
+### 🎯 Mission
 
-Uzayın büyüleyici dünyasını herkesin erişebileceği, anlaşılır ve görsel olarak etkileyici bir şekilde sunmak.
-
----
-
-## ✨ Özellikler
-
-### 🪐 Gezegenler
-- **İnteraktif Güneş Sistemi**: Animasyonlu gezegen yörüngeleri ve 3D görünümler
-- **Detaylı Gezegen Bilgileri**: 
-  - 3D animasyonlu gezegen görünümleri
-  - Parallax scrolling efektleri
-  - 4 sekme: Genel, Karşılaştırma, Yörünge, Detaylar
-  - Dünya ile karşılaştırma grafikleri
-  - Sıcaklık grafikleri ve boyut karşılaştırmaları
-  - Yörünge animasyonları ve hız hesaplamaları
-- **8 Gezegen**: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün
-
-### ☄️ Asteroitler
-- **Yakın Dünya Asteroitleri**: 7 günlük asteroit takibi
-- **Gelişmiş Filtreleme ve Sıralama**:
-  - Filtreleme: Tümü, Tehlikeli, Güvenli
-  - Sıralama: Tarih, Mesafe, Boyut, Hız
-  - Arama özelliği
-- **İstatistikler ve Grafikler**:
-  - Toplam, tehlikeli ve güvenli asteroit sayıları
-  - Ortalama hız ve boyut grafikleri
-  - Parallax header efektleri
-- **Detaylı Asteroit Bilgileri**:
-  - Yaklaşma tarihi ve mesafesi
-  - Hız ve boyut bilgileri
-  - Dünya ile boyut karşılaştırması
-
-### 🔴 Mars Hava Durumu
-- **InSight Lander Verileri**: Gerçek zamanlı Mars hava durumu
-- **4 Sekme**:
-  - **Güncel**: En son sol verisi ve son veriler
-  - **Basınç**: Basınç grafiği
-  - **Rüzgar**: Rüzgar hızı grafiği
-  - **Tümü**: Tüm sol verileri
-- **İstatistikler**:
-  - Ortalama basınç
-  - Ortalama ve maksimum rüzgar hızı
-- **Detaylı Sol Bilgileri**:
-  - Atmosfer basıncı (Min, Ort, Max)
-  - Rüzgar hızı (Min, Ort, Max)
-  - Rüzgar yönü
-  - Tarih bilgileri
-
-### 🎨 Tasarım Özellikleri
-- **Modern UI/UX**: Minimalist ve şık tasarım
-- **Parallax Scrolling**: Dinamik scroll efektleri
-- **3D Animasyonlar**: Dönen gezegenler ve asteroitler
-- **Gradient Efektleri**: Uzay temalı renk geçişleri
-- **Dark Theme**: Göz dostu karanlık tema
-- **Smooth Animations**: Akıcı geçişler ve animasyonlar
+To make the fascinating world of space accessible to everyone in an understandable and visually impressive way.
 
 ---
 
-## 🛠 Teknolojiler
+## ✨ Features
+
+### 🪐 Planets
+- **Interactive Solar System**: Animated planet orbits and 3D views
+- **Detailed Planet Information**: 
+  - 3D animated planet views
+  - Parallax scrolling effects
+  - 4 tabs: Overview, Comparison, Orbit, Details
+  - Comparison charts with Earth
+  - Temperature charts and size comparisons
+  - Orbit animations and speed calculations
+- **8 Planets**: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune
+
+### ☄️ Asteroids
+- **Near-Earth Asteroids**: 7-day asteroid tracking
+- **Advanced Filtering and Sorting**:
+  - Filtering: All, Hazardous, Safe
+  - Sorting: Date, Distance, Size, Speed
+  - Search functionality
+- **Statistics and Charts**:
+  - Total, hazardous, and safe asteroid counts
+  - Average speed and size charts
+  - Parallax header effects
+- **Detailed Asteroid Information**:
+  - Approach date and distance
+  - Speed and size information
+  - Size comparison with Earth
+
+### 🔴 Mars Weather
+- **InSight Lander Data**: Real-time Mars weather
+- **4 Tabs**:
+  - **Current**: Latest sol data and recent data
+  - **Pressure**: Pressure chart
+  - **Wind**: Wind speed chart
+  - **All**: All sol data
+- **Statistics**:
+  - Average pressure
+  - Average and maximum wind speed
+- **Detailed Sol Information**:
+  - Atmospheric pressure (Min, Avg, Max)
+  - Wind speed (Min, Avg, Max)
+  - Wind direction
+  - Date information
+
+### 🎨 Design Features
+- **Modern UI/UX**: Minimalist and elegant design
+- **Parallax Scrolling**: Dynamic scroll effects
+- **3D Animations**: Rotating planets and asteroids
+- **Gradient Effects**: Space-themed color transitions
+- **Dark Theme**: Eye-friendly dark theme
+- **Smooth Animations**: Fluid transitions and animations
+
+---
+
+## 🛠 Technologies
 
 - **SwiftUI**: Modern iOS UI framework
 - **Combine**: Reactive programming
-- **Async/Await**: Asenkron işlemler
-- **NASA API**: Uzay verileri
+- **Async/Await**: Asynchronous operations
+- **NASA API**: Space data
 - **Codable**: JSON parsing
-- **Custom Components**: Yeniden kullanılabilir UI bileşenleri
+- **Custom Components**: Reusable UI components
 
 ---
 
-## 📋 Gereksinimler
+## 📋 Requirements
 
 - iOS 26.0+
 - Xcode 15.0+
 - Swift 5.0+
-- NASA API Key ([Ücretsiz alın](https://api.nasa.gov))
+- NASA API Key ([Get it free](https://api.nasa.gov))
 
 ---
 
-## 🚀 Kurulum
+## 🚀 Installation
 
-### 1. Repository'yi Klonlayın
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/TasoSky.git
+git clone https://github.com/tahsinmert/TasoSky.git
 cd TasoSky
 ```
 
-### 2. NASA API Key Ekleyin
+### 2. Add NASA API Key
 
-1. [NASA API](https://api.nasa.gov) sitesinden ücretsiz API key alın
-2. `TasoSky/Services/NASAAPIService.swift` dosyasını açın
-3. `apiKey` değişkenine API key'inizi ekleyin:
+1. Get a free API key from [NASA API](https://api.nasa.gov)
+2. Open `TasoSky/Services/NASAAPIService.swift`
+3. Add your API key to the `apiKey` variable:
 
 ```swift
 private let apiKey = "YOUR_API_KEY_HERE"
 ```
 
-### 3. Xcode'da Açın
+### 3. Open in Xcode
 
 ```bash
 open TasoSky.xcodeproj
 ```
 
-### 4. Team ID Ayarlayın
+### 4. Set Team ID
 
-1. Xcode'da projeyi açın
-2. **TasoSky** projesini seçin
-3. **TARGETS** altında **TasoSky**'ı seçin
-4. **Signing & Capabilities** sekmesine gidin
-5. **Team** dropdown'ından kendi Apple Developer hesabınızı seçin
+1. Open the project in Xcode
+2. Select the **TasoSky** project
+3. Select **TasoSky** under **TARGETS**
+4. Go to **Signing & Capabilities** tab
+5. Select your Apple Developer account from the **Team** dropdown
 
-### 5. Çalıştırın
+### 5. Run
 
-- Simulator'da test edin veya
-- iPhone'unuzda çalıştırın (Developer hesabı gerekli)
-
----
-
-## 📱 Kullanım
-
-### Gezegenler
-1. **Gezegenler** sekmesine gidin
-2. Bir gezegene dokunarak detayları görün
-3. Sekmeler arasında geçiş yapın:
-   - **Genel**: İstatistikler ve ilginç bilgiler
-   - **Karşılaştırma**: Dünya ile karşılaştırma grafikleri
-   - **Yörünge**: Yörünge animasyonu ve detaylar
-   - **Detaylar**: Detaylı gezegen özellikleri
-
-### Asteroitler
-1. **Asteroitler** sekmesine gidin
-2. Filtreleme ve sıralama seçeneklerini kullanın
-3. Bir asteroite dokunarak detayları görün
-4. Arama çubuğunu kullanarak asteroit arayın
-
-### Mars Hava Durumu
-1. **Mars** sekmesine gidin
-2. Sekmeler arasında geçiş yapın:
-   - **Güncel**: En son veriler
-   - **Basınç**: Basınç grafiği
-   - **Rüzgar**: Rüzgar hızı grafiği
-   - **Tümü**: Tüm sol verileri
-3. Bir sol kartına dokunarak detayları görün
+- Test in Simulator or
+- Run on your iPhone (Developer account required)
 
 ---
 
-## 📸 Ekran Görüntüleri
+## 📱 Usage
+
+### Planets
+1. Go to the **Planets** tab
+2. Tap on a planet to view details
+3. Switch between tabs:
+   - **Overview**: Statistics and interesting facts
+   - **Comparison**: Comparison charts with Earth
+   - **Orbit**: Orbit animation and details
+   - **Details**: Detailed planet properties
+
+### Asteroids
+1. Go to the **Asteroids** tab
+2. Use filtering and sorting options
+3. Tap on an asteroid to view details
+4. Use the search bar to search for asteroids
+
+### Mars Weather
+1. Go to the **Mars** tab
+2. Switch between tabs:
+   - **Current**: Latest data
+   - **Pressure**: Pressure chart
+   - **Wind**: Wind speed chart
+   - **All**: All sol data
+3. Tap on a sol card to view details
+
+---
+
+## 📸 Screenshots
 
 <div align="center">
 
-### Gezegenler
-![Gezegenler](screenshots/planets.png)
+### Planets
+![Planets](screenshots/planets.png)
 
-### Asteroitler
-![Asteroitler](screenshots/asteroids.png)
+### Asteroids
+![Asteroids](screenshots/asteroids.png)
 
-### Mars Hava Durumu
+### Mars Weather
 ![Mars](screenshots/mars.png)
 
 </div>
 
-> **Not**: Ekran görüntüleri yakında eklenecektir.
+> **Note**: Screenshots will be added soon.
 
 ---
 
-## 🏗 Proje Yapısı
+## 🏗 Project Structure
 
 ```
 TasoSky/
 ├── TasoSky/
-│   ├── Models/          # Veri modelleri
+│   ├── Models/          # Data models
 │   │   ├── APOD.swift
 │   │   ├── NEO.swift
 │   │   ├── MarsWeather.swift
 │   │   └── Planet.swift
-│   ├── Views/           # UI görünümleri
+│   ├── Views/           # UI views
 │   │   ├── PlanetsView.swift
 │   │   ├── NEOView.swift
 │   │   └── MarsWeatherView.swift
-│   ├── Services/        # API servisleri
+│   ├── Services/        # API services
 │   │   └── NASAAPIService.swift
-│   ├── Components/      # Yeniden kullanılabilir bileşenler
+│   ├── Components/      # Reusable components
 │   │   └── InfoRow.swift
-│   ├── Utilities/       # Yardımcı sınıflar
+│   ├── Utilities/       # Helper classes
 │   │   └── Theme.swift
-│   └── Assets.xcassets/ # Görseller ve renkler
-├── TasoSkyTests/        # Unit testler
-└── TasoSkyUITests/      # UI testler
+│   └── Assets.xcassets/ # Images and colors
+├── TasoSkyTests/        # Unit tests
+└── TasoSkyUITests/      # UI tests
 ```
 
 ---
 
-## 🔧 Geliştirme
+## 🔧 Development
 
-### Katkıda Bulunma
+### Contributing
 
-Katkılarınızı bekliyoruz! Lütfen [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyun.
+We welcome your contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
-### Kod Stili
+### Code Style
 
-- Swift Style Guide'ı takip edin
-- Meaningful variable names kullanın
-- Comments ekleyin (özellikle karmaşık mantık için)
-- SwiftLint kurallarına uyun
+- Follow Swift Style Guide
+- Use meaningful variable names
+- Add comments (especially for complex logic)
+- Follow SwiftLint rules
 
-### Test Etme
+### Testing
 
 ```bash
-# Unit testler
+# Unit tests
 xcodebuild test -scheme TasoSky -destination 'platform=iOS Simulator,name=iPhone 15'
 
-# UI testler
+# UI tests
 xcodebuild test -scheme TasoSkyUITests -destination 'platform=iOS Simulator,name=iPhone 15'
 ```
 
 ---
 
-## 🐛 Bilinen Sorunlar
+## 🐛 Known Issues
 
-- [ ] Bazı cihazlarda parallax efektleri yavaş olabilir
-- [ ] API rate limit'i aşıldığında hata mesajları iyileştirilebilir
+- [ ] Parallax effects may be slow on some devices
+- [ ] Error messages can be improved when API rate limit is exceeded
 
 ---
 
-## 🗺 Yol Haritası
+## 🗺 Roadmap
 
-- [ ] Daha fazla gezegen detayı (uydular, atmosfer bileşimi)
-- [ ] APOD (Astronomy Picture of the Day) özelliği
-- [ ] Favoriler sistemi
-- [ ] Bildirimler (yaklaşan asteroitler)
-- [ ] iPad desteği
-- [ ] Widget desteği
+- [ ] More planet details (moons, atmosphere composition)
+- [ ] APOD (Astronomy Picture of the Day) feature
+- [ ] Favorites system
+- [ ] Notifications (approaching asteroids)
+- [ ] iPad support
+- [ ] Widget support
 - [ ] Dark/Light mode toggle
-- [ ] Çoklu dil desteği
+- [ ] Multi-language support
 
 ---
 
-## 🤝 Katkıda Bulunanlar
+## 🤝 Contributors
 
-Bu projeye katkıda bulunan herkese teşekkürler! 🙏
+Thank you to everyone who contributed to this project! 🙏
 
-<!-- Katkıda bulunanlar listesi buraya eklenecek -->
-
----
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+<!-- Contributors list will be added here -->
 
 ---
 
-## 🙏 Teşekkürler
+## 📄 License
 
-- [NASA API](https://api.nasa.gov) - Ücretsiz uzay verileri
-- [NASA](https://www.nasa.gov) - İlham veren keşifler
-- Tüm açık kaynak topluluğu
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📞 İletişim
+## 🙏 Acknowledgments
+
+- [NASA API](https://api.nasa.gov) - Free space data
+- [NASA](https://www.nasa.gov) - Inspiring discoveries
+- All open source community
+
+---
+
+## 📞 Contact
 
 **Tahsin Mert Mutlu**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@tahsinmert](https://github.com/tahsinmert)
 - Email: your.email@example.com
 - Twitter: [@yourusername](https://twitter.com/yourusername)
 
 ---
 
-## ⭐ Yıldız Verin
+## ⭐ Star This Project
 
-Bu projeyi beğendiyseniz, bir yıldız vermeyi unutmayın! ⭐
+If you liked this project, don't forget to give it a star! ⭐
 
 ---
 
@@ -304,7 +304,6 @@ Bu projeyi beğendiyseniz, bir yıldız vermeyi unutmayın! ⭐
 
 **Made with ❤️ and ☕ by Tahsin Mert Mutlu**
 
-[⬆ Yukarı Çık](#-tassky)
+[⬆ Back to Top](#-tassky)
 
 </div>
-

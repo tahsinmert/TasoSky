@@ -1,50 +1,49 @@
 ---
-name: Hata Bildirimi
-about: Bir hata bulduysanız bildirin
+name: Bug Report
+about: Report a bug if you found one
 title: '[BUG] '
 labels: bug
 assignees: ''
 ---
 
-## 🐛 Hata Açıklaması
+## 🐛 Bug Description
 
-Hatanın kısa ve açık bir açıklaması.
+A clear and concise description of the bug.
 
-## 🔄 Yeniden Üretme
+## 🔄 Reproduction
 
-Hatanın oluşması için adımlar:
-1. '...' sayfasına gidin
-2. '...' butonuna tıklayın
-3. '...' işlemini yapın
-4. Hata görünür
+Steps to reproduce the behavior:
+1. Go to '...' page
+2. Click on '...' button
+3. Perform '...' action
+4. See error
 
-## ✅ Beklenen Davranış
+## ✅ Expected Behavior
 
-Ne olması gerektiğini açıklayın.
+A clear and concise description of what you expected to happen.
 
-## ❌ Gerçek Davranış
+## ❌ Actual Behavior
 
-Ne olduğunu açıklayın.
+A clear and concise description of what actually happened.
 
-## 📸 Ekran Görüntüleri
+## 📸 Screenshots
 
-Varsa, sorunu açıklamaya yardımcı olacak ekran görüntüleri ekleyin.
+If applicable, add screenshots to help explain your problem.
 
-## 📱 Cihaz Bilgileri
+## 📱 Device Information
 
-- **Cihaz**: [örn. iPhone 15 Pro]
-- **iOS Versiyonu**: [örn. 26.0]
-- **Uygulama Versiyonu**: [örn. 1.0.0]
+- **Device**: [e.g. iPhone 15 Pro]
+- **iOS Version**: [e.g. 26.0]
+- **App Version**: [e.g. 1.0.0]
 
-## 📋 Ek Bağlam
+## 📋 Additional Context
 
-Hata hakkında başka bir şey eklemek isterseniz buraya ekleyin.
+Add any other context about the problem here.
 
 ## ✅ Checklist
 
-- [ ] Benzer bir issue var mı kontrol ettim
-- [ ] En son sürümü kullanıyorum
-- [ ] Sorunu yeniden üretebiliyorum
-- [ ] Ekran görüntüleri ekledim (varsa)
-- [ ] Cihaz bilgilerini ekledim
-
+- [ ] I have checked for similar issues
+- [ ] I am using the latest version
+- [ ] I can reproduce the issue
+- [ ] I have added screenshots (if applicable)
+- [ ] I have added device information

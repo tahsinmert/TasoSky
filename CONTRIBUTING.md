@@ -1,110 +1,110 @@
-# Katkıda Bulunma Rehberi
+# Contributing Guide
 
-TasoSky projesine katkıda bulunmak istediğiniz için teşekkürler! 🎉
+Thank you for your interest in contributing to TasoSky! 🎉
 
-Bu dosya, projeye nasıl katkıda bulunabileceğiniz hakkında bilgi içerir.
+This file contains information about how you can contribute to the project.
 
-## 📋 İçindekiler
+## 📋 Table of Contents
 
-- [Davranış Kuralları](#davranış-kuralları)
-- [Nasıl Katkıda Bulunabilirim?](#nasıl-katkıda-bulunabilirim)
-- [Geliştirme Süreci](#geliştirme-süreci)
-- [Kod Stili](#kod-stili)
-- [Commit Mesajları](#commit-mesajları)
-- [Pull Request Süreci](#pull-request-süreci)
+- [Code of Conduct](#code-of-conduct)
+- [How Can I Contribute?](#how-can-i-contribute)
+- [Development Process](#development-process)
+- [Code Style](#code-style)
+- [Commit Messages](#commit-messages)
+- [Pull Request Process](#pull-request-process)
 
-## 🤝 Davranış Kuralları
+## 🤝 Code of Conduct
 
-Bu proje [Davranış Kuralları](CODE_OF_CONDUCT.md) ile yönetilmektedir. Katılımınızla, bu kurallara uymayı kabul etmiş olursunuz.
+This project is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you agree to abide by these rules.
 
-## 💡 Nasıl Katkıda Bulunabilirim?
+## 💡 How Can I Contribute?
 
-### Hata Bildirimi
+### Reporting Bugs
 
-1. **Mevcut issue'ları kontrol edin** - Sorununuz zaten bildirilmiş olabilir
-2. **Yeni bir issue oluşturun** - Açıklayıcı bir başlık ve detaylı açıklama ekleyin
-3. **Ekran görüntüleri ekleyin** - Mümkünse sorunu gösteren görseller ekleyin
-4. **Adımları listeleyin** - Sorunu yeniden üretme adımlarını ekleyin
+1. **Check existing issues** - Your issue may already be reported
+2. **Create a new issue** - Add a descriptive title and detailed description
+3. **Add screenshots** - If possible, add images showing the problem
+4. **List steps** - Add steps to reproduce the issue
 
-### Özellik Önerisi
+### Suggesting Features
 
-1. **Yeni bir issue oluşturun** - "Feature Request" etiketi ile
-2. **Özelliği açıklayın** - Ne yapmak istediğinizi detaylıca anlatın
-3. **Kullanım senaryosunu ekleyin** - Özelliğin nasıl kullanılacağını açıklayın
-4. **Tasarım önerileri** - Varsa tasarım fikirlerinizi paylaşın
+1. **Create a new issue** - With "Feature Request" label
+2. **Describe the feature** - Explain what you want to do in detail
+3. **Add usage scenario** - Explain how the feature will be used
+4. **Design suggestions** - Share your design ideas if you have any
 
-### Kod Katkısı
+### Code Contribution
 
-1. **Issue'ya yorum yapın** - Çalışmak istediğiniz issue'ya yorum ekleyin
-2. **Fork yapın** - Repository'yi fork edin
-3. **Branch oluşturun** - Yeni bir feature branch oluşturun
-4. **Kod yazın** - Değişikliklerinizi yapın
-5. **Test edin** - Değişikliklerinizi test edin
-6. **Pull Request gönderin** - PR açın ve değişikliklerinizi açıklayın
+1. **Comment on the issue** - Add a comment to the issue you want to work on
+2. **Fork the repository** - Fork the repository
+3. **Create a branch** - Create a new feature branch
+4. **Write code** - Make your changes
+5. **Test** - Test your changes
+6. **Submit Pull Request** - Open a PR and explain your changes
 
-## 🔧 Geliştirme Süreci
+## 🔧 Development Process
 
-### 1. Repository'yi Fork Edin
+### 1. Fork the Repository
 
-GitHub'da repository'yi fork edin.
+Fork the repository on GitHub.
 
-### 2. Repository'yi Klonlayın
+### 2. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/TasoSky.git
 cd TasoSky
 ```
 
-### 3. Remote Ekleme
+### 3. Add Remote
 
 ```bash
-git remote add upstream https://github.com/originalowner/TasoSky.git
+git remote add upstream https://github.com/tahsinmert/TasoSky.git
 ```
 
-### 4. Branch Oluşturma
+### 4. Create Branch
 
 ```bash
 git checkout -b feature/your-feature-name
-# veya
+# or
 git checkout -b fix/your-bug-fix
 ```
 
-### 5. Değişikliklerinizi Yapın
+### 5. Make Your Changes
 
-- Kod yazın
-- Test edin
-- Dokümantasyon güncelleyin (gerekirse)
+- Write code
+- Test
+- Update documentation (if needed)
 
-### 6. Commit Yapın
+### 6. Commit
 
 ```bash
 git add .
-git commit -m "feat: yeni özellik eklendi"
+git commit -m "feat: new feature added"
 ```
 
-### 7. Push Yapın
+### 7. Push
 
 ```bash
 git push origin feature/your-feature-name
 ```
 
-### 8. Pull Request Oluşturun
+### 8. Create Pull Request
 
-GitHub'da Pull Request oluşturun ve değişikliklerinizi açıklayın.
+Create a Pull Request on GitHub and explain your changes.
 
-## 📝 Kod Stili
+## 📝 Code Style
 
 ### Swift Style Guide
 
-- **Naming**: camelCase kullanın
-- **Indentation**: 4 spaces (tab değil)
-- **Line Length**: Mümkünse 100 karakteri aşmayın
-- **Comments**: Karmaşık mantık için açıklayıcı yorumlar ekleyin
+- **Naming**: Use camelCase
+- **Indentation**: 4 spaces (not tabs)
+- **Line Length**: Try not to exceed 100 characters if possible
+- **Comments**: Add descriptive comments for complex logic
 
-### Örnek
+### Example
 
 ```swift
-// ✅ İyi
+// ✅ Good
 struct PlanetDetailView: View {
     let planet: Planet
     @State private var selectedTab: Int = 0
@@ -114,7 +114,7 @@ struct PlanetDetailView: View {
     }
 }
 
-// ❌ Kötü
+// ❌ Bad
 struct planetDetailView:View{
 let planet:Planet
 @State private var selectedTab:Int=0
@@ -122,13 +122,13 @@ var body:some View{//...}
 }
 ```
 
-### Dosya Organizasyonu
+### File Organization
 
-- Her dosya tek bir sorumluluğa sahip olmalı
-- İlgili dosyalar aynı klasörde olmalı
-- Dosya isimleri açıklayıcı olmalı
+- Each file should have a single responsibility
+- Related files should be in the same folder
+- File names should be descriptive
 
-## 💬 Commit Mesajları
+## 💬 Commit Messages
 
 ### Format
 
@@ -140,105 +140,104 @@ var body:some View{//...}
 <footer>
 ```
 
-### Type'lar
+### Types
 
-- `feat`: Yeni özellik
-- `fix`: Hata düzeltmesi
-- `docs`: Dokümantasyon değişikliği
-- `style`: Kod formatı (işlevsellik değişmez)
-- `refactor`: Kod yeniden yapılandırma
-- `test`: Test ekleme/düzeltme
-- `chore`: Build süreci veya yardımcı araçlar
+- `feat`: New feature
+- `fix`: Bug fix
+- `docs`: Documentation change
+- `style`: Code formatting (functionality unchanged)
+- `refactor`: Code refactoring
+- `test`: Test addition/fix
+- `chore`: Build process or helper tools
 
-### Örnekler
+### Examples
 
 ```bash
-feat: gezegen detay sayfasına parallax scrolling eklendi
+feat: parallax scrolling added to planet detail page
 
-fix: asteroit filtreleme hatası düzeltildi
+fix: asteroid filtering bug fixed
 
-docs: README'ye kurulum adımları eklendi
+docs: installation steps added to README
 
-style: kod formatı düzenlendi
+style: code formatting adjusted
 ```
 
-## 🔍 Pull Request Süreci
+## 🔍 Pull Request Process
 
 ### PR Checklist
 
-- [ ] Kod çalışıyor ve test edildi
-- [ ] Yeni özellikler için testler eklendi
-- [ ] Dokümantasyon güncellendi
-- [ ] Kod stili kurallarına uyuldu
-- [ ] Commit mesajları açıklayıcı
-- [ ] Breaking changes varsa belirtildi
+- [ ] Code works and is tested
+- [ ] Tests added for new features
+- [ ] Documentation updated
+- [ ] Code style rules followed
+- [ ] Commit messages are descriptive
+- [ ] Breaking changes are mentioned if any
 
-### PR Açıklaması
+### PR Description
 
-PR açıklamanızda şunları belirtin:
+In your PR description, specify:
 
-1. **Ne yapıldı?** - Yapılan değişikliklerin özeti
-2. **Neden yapıldı?** - Değişikliğin gerekçesi
-3. **Nasıl test edildi?** - Test adımları
-4. **Ekran görüntüleri** - UI değişiklikleri varsa
+1. **What was done?** - Summary of changes made
+2. **Why was it done?** - Justification for the change
+3. **How was it tested?** - Test steps
+4. **Screenshots** - If there are UI changes
 
-### Review Süreci
+### Review Process
 
-1. **Otomatik kontroller** - CI/CD kontrolleri geçmeli
-2. **Code review** - En az bir maintainer review yapmalı
-3. **Değişiklikler** - Gerekirse değişiklik istenebilir
-4. **Onay** - Review onaylandıktan sonra merge edilir
+1. **Automatic checks** - CI/CD checks must pass
+2. **Code review** - At least one maintainer must review
+3. **Changes** - Changes may be requested if needed
+4. **Approval** - After review approval, it will be merged
 
-## 🐛 Hata Bildirimi
+## 🐛 Bug Reporting
 
-### Hata Bildirirken
+### When Reporting Bugs
 
-1. **Başlık**: Kısa ve açıklayıcı
-2. **Açıklama**: Sorunu detaylıca anlatın
-3. **Adımlar**: Sorunu yeniden üretme adımları
-4. **Beklenen**: Ne olması gerektiği
-5. **Gerçek**: Ne olduğu
-6. **Ekran görüntüleri**: Varsa ekleyin
-7. **Cihaz/Bilgi**: iOS versiyonu, cihaz modeli
+1. **Title**: Short and descriptive
+2. **Description**: Describe the problem in detail
+3. **Steps**: Steps to reproduce the problem
+4. **Expected**: What should happen
+5. **Actual**: What actually happened
+6. **Screenshots**: Add if available
+7. **Device/Info**: iOS version, device model
 
-### Örnek
+### Example
 
 ```markdown
-**Başlık**: Gezegen detay sayfasında parallax scroll çalışmıyor
+**Title**: Parallax scroll not working on planet detail page
 
-**Açıklama**: 
-Gezegen detay sayfasında scroll yaparken parallax efekti görünmüyor.
+**Description**: 
+When scrolling on the planet detail page, parallax effect is not visible.
 
-**Adımlar**:
-1. Gezegenler sekmesine git
-2. Bir gezegene dokun
-3. Detay sayfasında scroll yap
+**Steps**:
+1. Go to Planets tab
+2. Tap on a planet
+3. Scroll on the detail page
 
-**Beklenen**: Parallax efekti görünmeli
-**Gerçek**: Hiçbir efekt yok
+**Expected**: Parallax effect should be visible
+**Actual**: No effect at all
 
-**Cihaz**: iPhone 15 Pro, iOS 26.0
+**Device**: iPhone 15 Pro, iOS 26.0
 ```
 
-## 📚 Dokümantasyon
+## 📚 Documentation
 
-- Yeni özellikler için dokümantasyon ekleyin
-- README'yi güncelleyin
-- Kod yorumları ekleyin (gerekirse)
+- Add documentation for new features
+- Update README
+- Add code comments (if needed)
 
-## ❓ Sorular?
+## ❓ Questions?
 
-Herhangi bir sorunuz varsa:
+If you have any questions:
 
-- Issue açın
-- Discussion'da sorun
-- Email gönderin
+- Open an issue
+- Ask in Discussions
+- Send an email
 
-## 🙏 Teşekkürler
+## 🙏 Thank You
 
-Katkılarınız için teşekkürler! Her katkı, projeyi daha iyi hale getiriyor. 🚀
+Thank you for your contributions! Every contribution makes the project better. 🚀
 
 ---
 
-**Not**: Bu rehber sürekli güncellenmektedir. Önerileriniz varsa lütfen paylaşın!
-
+**Note**: This guide is constantly updated. Please share your suggestions!

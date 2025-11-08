@@ -1,46 +1,45 @@
 ---
-name: Özellik Önerisi
-about: Yeni bir özellik önerin
+name: Feature Request
+about: Suggest a new feature
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''
 ---
 
-## 💡 Özellik Açıklaması
+## 💡 Feature Description
 
-Önerdiğiniz özelliğin kısa ve açık bir açıklaması.
+A clear and concise description of the feature you're suggesting.
 
 ## 🎯 Problem
 
-Bu özellik hangi sorunu çözüyor? Veya hangi ihtiyacı karşılıyor?
+What problem does this feature solve? Or what need does it address?
 
-## 💭 Önerilen Çözüm
+## 💭 Proposed Solution
 
-Özelliğin nasıl çalışmasını istediğinizi açıklayın.
+Describe how you want this feature to work.
 
-## 🔄 Alternatifler
+## 🔄 Alternatives
 
-Düşündüğünüz alternatif çözümler varsa buraya ekleyin.
+Describe any alternative solutions or features you've considered.
 
-## 📸 Tasarım Önerileri
+## 📸 Design Suggestions
 
-Varsa, tasarım fikirlerinizi veya mockup'ları buraya ekleyin.
+If you have any, add design ideas or mockups here.
 
-## 📋 Kullanım Senaryosu
+## 📋 Usage Scenario
 
-Bu özelliğin nasıl kullanılacağını açıklayın:
-1. Kullanıcı '...' yapar
-2. Sistem '...' gösterir
-3. Kullanıcı '...' seçer
+Describe how this feature would be used:
+1. User does '...'
+2. System shows '...'
+3. User selects '...'
 
 ## ✅ Checklist
 
-- [ ] Benzer bir özellik önerisi var mı kontrol ettim
-- [ ] Özelliği detaylıca açıkladım
-- [ ] Kullanım senaryosunu ekledim
-- [ ] Tasarım önerileri ekledim (varsa)
+- [ ] I have checked for similar feature requests
+- [ ] I have described the feature in detail
+- [ ] I have added usage scenario
+- [ ] I have added design suggestions (if applicable)
 
-## 📝 Ek Notlar
+## 📝 Additional Notes
 
-Bu özellik hakkında başka bir şey eklemek isterseniz buraya ekleyin.
-
+Add any other context or notes about the feature request here.

@@ -1,62 +1,62 @@
 # Changelog
 
-Tüm önemli değişiklikler bu dosyada belgelenecektir.
+All notable changes to this project will be documented in this file.
 
-Format [Keep a Changelog](https://keepachangelog.com/tr/1.0.0/) baz alınarak oluşturulmuştur ve bu proje [Semantic Versioning](https://semver.org/lang/tr/) kullanmaktadır.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-### Planlanan
-- APOD (Astronomy Picture of the Day) özelliği
-- Favoriler sistemi
-- Bildirimler (yaklaşan asteroitler)
-- iPad desteği
-- Widget desteği
+### Planned
+- APOD (Astronomy Picture of the Day) feature
+- Favorites system
+- Notifications (approaching asteroids)
+- iPad support
+- Widget support
 - Dark/Light mode toggle
-- Çoklu dil desteği
+- Multi-language support
 
 ## [1.0.0] - 2025-11-08
 
-### Eklenen
-- **Gezegenler Sekmesi**
-  - İnteraktif güneş sistemi animasyonu
-  - 8 gezegen (Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün)
-  - 3D animasyonlu gezegen görünümleri
-  - Parallax scrolling efektleri
-  - 4 sekme: Genel, Karşılaştırma, Yörünge, Detaylar
-  - Dünya ile karşılaştırma grafikleri
-  - Sıcaklık grafikleri ve boyut karşılaştırmaları
-  - Yörünge animasyonları ve hız hesaplamaları
-  - Detaylı gezegen bilgileri
+### Added
+- **Planets Tab**
+  - Interactive solar system animation
+  - 8 planets (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune)
+  - 3D animated planet views
+  - Parallax scrolling effects
+  - 4 tabs: Overview, Comparison, Orbit, Details
+  - Comparison charts with Earth
+  - Temperature charts and size comparisons
+  - Orbit animations and speed calculations
+  - Detailed planet information
 
-- **Asteroitler Sekmesi**
-  - Yakın Dünya asteroitleri takibi (7 günlük)
-  - Gelişmiş filtreleme (Tümü, Tehlikeli, Güvenli)
-  - Sıralama seçenekleri (Tarih, Mesafe, Boyut, Hız)
-  - Arama özelliği
-  - İstatistikler ve grafikler
-  - Parallax header efektleri
-  - Detaylı asteroit bilgileri
-  - Dünya ile boyut karşılaştırması
+- **Asteroids Tab**
+  - Near-Earth asteroids tracking (7-day)
+  - Advanced filtering (All, Hazardous, Safe)
+  - Sorting options (Date, Distance, Size, Speed)
+  - Search functionality
+  - Statistics and charts
+  - Parallax header effects
+  - Detailed asteroid information
+  - Size comparison with Earth
 
-- **Mars Hava Durumu Sekmesi**
-  - InSight Lander verileri
-  - 4 sekme: Güncel, Basınç, Rüzgar, Tümü
-  - Basınç ve rüzgar grafikleri
-  - İstatistikler (Ortalama basınç, rüzgar hızı)
-  - Detaylı sol bilgileri
-  - Mars yüzey efekti
+- **Mars Weather Tab**
+  - InSight Lander data
+  - 4 tabs: Current, Pressure, Wind, All
+  - Pressure and wind charts
+  - Statistics (Average pressure, wind speed)
+  - Detailed sol information
+  - Mars surface effect
 
-- **Genel Özellikler**
-  - Modern UI/UX tasarımı
+- **General Features**
+  - Modern UI/UX design
   - Dark theme
-  - Smooth animasyonlar
+  - Smooth animations
   - Pull-to-refresh
   - Error handling
   - Loading states
   - Empty states
 
-- **Teknik Özellikler**
+- **Technical Features**
   - SwiftUI framework
   - Combine for reactive programming
   - Async/Await for async operations
@@ -64,32 +64,32 @@ Format [Keep a Changelog](https://keepachangelog.com/tr/1.0.0/) baz alınarak ol
   - Custom reusable components
   - Theme system
 
-### Değiştirilen
-- İlk sürüm
+### Changed
+- Initial version
 
-### Düzeltilen
-- İlk sürüm
+### Fixed
+- Initial version
 
-### Güvenlik
-- API key güvenliği için öneriler eklendi
-
----
-
-## Versiyon Formatı
-
-- **MAJOR**: Uyumsuz API değişiklikleri
-- **MINOR**: Geriye dönük uyumlu yeni özellikler
-- **PATCH**: Geriye dönük uyumlu hata düzeltmeleri
-
-## Kategoriler
-
-- **Eklenen**: Yeni özellikler
-- **Değiştirilen**: Mevcut özelliklerde değişiklikler
-- **Kaldırılan**: Kaldırılan özellikler
-- **Düzeltilen**: Hata düzeltmeleri
-- **Güvenlik**: Güvenlik açıkları ve düzeltmeleri
+### Security
+- Security recommendations for API key added
 
 ---
 
-**Not**: Bu changelog, projenin gelişimiyle birlikte güncellenecektir.
+## Version Format
 
+- **MAJOR**: Incompatible API changes
+- **MINOR**: Backward compatible new features
+- **PATCH**: Backward compatible bug fixes
+
+## Categories
+
+- **Added**: New features
+- **Changed**: Changes to existing features
+- **Deprecated**: Features that will be removed
+- **Removed**: Removed features
+- **Fixed**: Bug fixes
+- **Security**: Security vulnerabilities and fixes
+
+---
+
+**Note**: This changelog will be updated as the project evolves.

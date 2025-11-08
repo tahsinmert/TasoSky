@@ -1,74 +1,73 @@
-## 📝 Açıklama
+## 📝 Description
 
-Bu PR'ın ne yaptığını kısa ve açık bir şekilde açıklayın.
+Briefly and clearly describe what this PR does.
 
-## 🔗 İlgili Issue
+## 🔗 Related Issue
 
-Bu PR hangi issue'yu kapatıyor? (varsa)
-Closes #(issue numarası)
+Which issue does this PR close? (if applicable)
+Closes #(issue number)
 
-## 🎯 Değişiklik Türü
+## 🎯 Type of Change
 
-Yaptığınız değişikliğin türünü işaretleyin:
+Mark the type of change you made:
 
-- [ ] 🐛 Hata düzeltmesi (bug fix)
-- [ ] ✨ Yeni özellik (feature)
-- [ ] 💥 Breaking change (mevcut özellikleri değiştiren)
-- [ ] 📚 Dokümantasyon (documentation)
-- [ ] 🎨 Stil değişikliği (formatting, renkler, vb.)
-- [ ] ♻️ Refactoring (kod yeniden yapılandırma)
-- [ ] ⚡ Performans iyileştirmesi
-- [ ] ✅ Test ekleme/düzeltme
-- [ ] 🔧 Build/config değişikliği
-- [ ] 🔄 CI/CD değişikliği
+- [ ] 🐛 Bug fix (bug fix)
+- [ ] ✨ New feature (feature)
+- [ ] 💥 Breaking change (changes existing features)
+- [ ] 📚 Documentation (documentation)
+- [ ] 🎨 Style change (formatting, colors, etc.)
+- [ ] ♻️ Refactoring (code restructuring)
+- [ ] ⚡ Performance improvement
+- [ ] ✅ Test addition/fix
+- [ ] 🔧 Build/config change
+- [ ] 🔄 CI/CD change
 
-## 🔄 Değişiklikler
+## 🔄 Changes
 
-Bu PR'da yapılan değişikliklerin listesi:
+List of changes made in this PR:
 
-- Değişiklik 1
-- Değişiklik 2
-- Değişiklik 3
+- Change 1
+- Change 2
+- Change 3
 
-## 📸 Ekran Görüntüleri
+## 📸 Screenshots
 
-UI değişiklikleri varsa, önce ve sonra ekran görüntüleri ekleyin:
+If there are UI changes, add before and after screenshots:
 
-### Önce
-![Önce](ekran-goruntusu-once.png)
+### Before
+![Before](screenshot-before.png)
 
-### Sonra
-![Sonra](ekran-goruntusu-sonra.png)
+### After
+![After](screenshot-after.png)
 
-## ✅ Test Edildi
+## ✅ Tested
 
-Bu değişikliklerin nasıl test edildiğini açıklayın:
+Describe how these changes were tested:
 
-- [ ] Unit testler geçti
-- [ ] UI testler geçti
-- [ ] Manuel test yapıldı
-- [ ] Farklı cihazlarda test edildi
-- [ ] Farklı iOS versiyonlarında test edildi
+- [ ] Unit tests passed
+- [ ] UI tests passed
+- [ ] Manual testing done
+- [ ] Tested on different devices
+- [ ] Tested on different iOS versions
 
 ## 📋 Checklist
 
-PR göndermeden önce kontrol edin:
+Check before submitting PR:
 
-- [ ] Kod çalışıyor ve test edildi
-- [ ] Yeni özellikler için testler eklendi
-- [ ] Dokümantasyon güncellendi (gerekirse)
-- [ ] Kod stili kurallarına uyuldu
-- [ ] Commit mesajları açıklayıcı
-- [ ] Breaking changes varsa belirtildi
-- [ ] README güncellendi (gerekirse)
-- [ ] CHANGELOG güncellendi (gerekirse)
+- [ ] Code works and is tested
+- [ ] Tests added for new features
+- [ ] Documentation updated (if needed)
+- [ ] Code style rules followed
+- [ ] Commit messages are descriptive
+- [ ] Breaking changes are mentioned if any
+- [ ] README updated (if needed)
+- [ ] CHANGELOG updated (if needed)
 
-## 📝 Ek Notlar
+## 📝 Additional Notes
 
-Reviewer'lar için ek notlar veya özel talimatlar varsa buraya ekleyin.
+Add any additional notes or special instructions for reviewers here.
 
 ## 👥 Reviewers
 
-Bu PR'ı review etmesini istediğiniz kişileri etiketleyin (varsa):
+Tag people you want to review this PR (if applicable):
 @username
-
